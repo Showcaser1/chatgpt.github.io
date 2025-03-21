@@ -16,10 +16,10 @@ async function sendMessage() {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                "Authorization": "Bearer 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" // Replace with your real API key
+                "Authorization": "Bearer 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" // 🔥 Replace with your real API key
             },
             body: JSON.stringify({
-                model: "gpt-3.5-turbo",
+                model: "gpt-4o-mini", // Use GPT-4o-mini model here
                 messages: [{ role: "user", content: userInput }]
             })
         });
